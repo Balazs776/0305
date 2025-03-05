@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 2fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    width: 100%;
+    height: 200px;
+    gap: 20px;
+}
+
+.box1 {
+    grid-column: span 2;
+    grid-row: 1 / 1;
+}
+
+.box2 {
+    grid-column: span 2;
+    grid-row: 2 / 2;
+}
+
+.box3 {
+    grid-column: span 2;
+    grid-row: 3 / 3;
+    color: hsl(0, 100%, 67%);
+    background-color: hsla(10, 100%, 64%, 0.05);
+    border-radius: 20px;
+    margin: 0 50px 0;
+}
+
+.box4 {
+    grid-column: span 2;
+    grid-row: 4 / 4;
+    color: hsl(39, 100%, 56%);
+    background-color: hsla(39, 100%, 56%, 0.05);
+    border-radius: 20px;
+    margin: 0 50px 0;
+}
+
+.box5 {
+    grid-column: span 2;
+    grid-row: 5 / 5;
+    color: hsl(166, 100%, 37%);
+    background-color: hsla(166, 100%, 37%, 0.05);
+    border-radius: 20px;
+    margin: 0 50px 0;
+}
+
+.box6 {
+    grid-column: span 2;
+    grid-row: 6 / 6;
+    color: hsl(234, 85%, 45%);
+    background-color: hsla(234, 85%, 45%, 0.05);
+    border-radius: 20px;
+    margin: 0 50px 0;
+}
+
+.button1 {
+    grid-column: span 2;
+    grid-row: 7 / 7;
+}
+
+h3 {
+    position: relative;
+    left: 30px;
+    bottom: 25px;
+}
+p {
+    position: relative;
+    left: 330px;
+    bottom: 35px;
+}
