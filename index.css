@@ -10,7 +10,7 @@
     src: url(fonts/HankenGrotesk-Bold.ttf);
 }
 body {
-    background-color: whitesmoke;
+    background-color: gainsboro;
 }
 
 section {
@@ -234,5 +234,14 @@ img {
         width: 40%;
         left: 5%;
     }
-    
+    /*.white {
+        background-color: white;
+        position: relative;
+        top: 1300%;
+        left: 200%;
+        color: white;
+        z-index: auto;
+        width: 150%;
+        height: 3000%;
+    }*/
 }
