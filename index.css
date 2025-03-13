@@ -143,6 +143,7 @@ img {
     background-color: hsl(224, 30%, 27%);
     border: 0;
     color: white;
+    cursor: pointer;
 }
 #text {
     position: relative;
